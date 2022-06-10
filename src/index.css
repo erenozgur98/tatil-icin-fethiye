@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  /* background-color: black; */
+}
+
+/* for iFrame issues not being able to click */
+iframe {
+  pointer-events: none;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
