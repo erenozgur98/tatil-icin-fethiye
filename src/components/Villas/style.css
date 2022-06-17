@@ -1,21 +1,3 @@
-.carousel-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.whatsapp-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    margin: 2.5rem;
-}
-
-
 .villa-container {
     display: flex;
     align-items: center;

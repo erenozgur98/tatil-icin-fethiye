@@ -1,8 +1,12 @@
 import React from "react";
 import { Carousel } from 'react-bootstrap';
 import Whatsapp from "../../components/Whatsapp";
+import 'react-calendar/dist/Calendar.css';
 
 function Home() {
+    const disabledDates = [
+        new Date('July 1, 2022'),
+    ];
 
     const carouselItems = [
         {
@@ -28,12 +32,12 @@ function Home() {
     return (
         <>
             <div className='carousel-container'>
-                <Carousel fade style={{ maxWidth: '50%', margin: '1rem' }}>
+                <Carousel fade pause='hover'>
                     {carouselItems.map(item => (
                         <Carousel.Item>
                             <img
-                                style={{ maxWidth: '927px', maxHeight: '780px' }}
                                 className="d-block w-100"
+                                style={{ maxHeight: '880px', objectFit: 'cover' }}
                                 src={item.src}
                                 alt={item.alt}
                             />
@@ -51,3 +55,4 @@ function Home() {
 }
 
 export default Home;
+

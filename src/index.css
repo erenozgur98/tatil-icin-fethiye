@@ -8,8 +8,23 @@ iframe {
   pointer-events: none;
 }
 
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.carousel-container {
+  margin-bottom: 2rem;
+}
+
+.whatsapp-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 1rem 2.5rem;
 }
